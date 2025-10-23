@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="pagina de busqueda de empleos" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="theme color"
+      media="(prefers-color-sheme: light)"
+      content="#fffff"
+    />
+    <meta
+      name="theme color"
+      media="(prefers-color-sheme: dark)"
+      content="#121212"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <title>detalle de empleo</title>
+  </head>
+  <body>
+    <header>
+        <nav id="empleosNav" class="navbar">
+        <h4 class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 14"
+            id="Medical-Cross-Symbol--Streamline-Core"
+            height="17"
+            width="17"
+          >
+            <desc>
+              Medical Cross Symbol Streamline Icon: https://streamlinehq.com
+            </desc>
+            <g
+              id="medical-cross-symbol--health-sign-medical-symbol-hospital-emergency"
+            >
+              <path
+                id="Union"
+                fill=" #09f"
+                fill-rule="evenodd"
+                d="M5.04734 0.756836c0 -0.276143 0.22386 -0.5 0.5 -0.5h2.90542c0.27614 0 0.5 0.223858 0.5 0.5V3.61784l2.47774 -1.4305c0.2391 -0.13807 0.5449 -0.05613 0.683 0.18301l1.4527 2.51617c0.1381 0.23915 0.0561 0.54494 -0.183 0.68301l-2.4777 1.43051 2.4776 1.43049c0.2392 0.13807 0.3211 0.44387 0.1831 0.68302l-1.4528 2.51615c-0.138 0.2392 -0.4438 0.3211 -0.683 0.183l-2.47764 -1.4305v2.861c0 0.2762 -0.22386 0.5 -0.5 0.5H5.54734c-0.27614 0 -0.5 -0.2238 -0.5 -0.5v-2.861l-2.4777 1.4305c-0.23915 0.1381 -0.54494 0.0562 -0.68302 -0.183L0.433915 9.11355C0.295844 8.8744 0.377781 8.5686 0.616927 8.43053L3.09462 7.00004 0.616905 5.56953c-0.239147 -0.13807 -0.321084 -0.44386 -0.183013 -0.68301L1.8866 2.37035c0.13807 -0.23914 0.44387 -0.32108 0.68301 -0.18301l2.47773 1.43051V0.756836Z"
+                clip-rule="evenodd"
+                stroke-width="1"
+              ></path>
+            </g>
+          </svg>
+          Devjobs
+        </h4>
+        <ul class="navLinks">
+          <li><a href="./index.html">inicio</a></li>
+          <li><a class="imp" href="./empleos.html">empleos</a></li>
+          <li><a href="">empresas</a></li>
+          <li><a href="">salarios</a></li>
+        </ul>
+        <form role="search">
+          <div class="searchbar-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-search"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+            <path d="M21 21l-6 -6" />
+          </svg>
+          <input type="text" name="" id="" placeholder="buscar">
+        </form>
+      </div>
+        <div class="navActions">
+          <button class="uploadBtn"
+          type="button"
+          onclick="document.getElementById('subircv').click()"
+        >
+          Subir CV
+        </button>
+        <input type="file" id="subircv" name="cv" hidden />
+        <img class="userImg" src="./images/user.png" alt="user" />
+      </nav>
+        </div>
+    </header>
+    <main>
+      <ul class="categories">
+        <li><a class="refer" href="./empleos.html">Empleos</a></li>
+        <li>/</li>
+        <li><a  href="">Ingeniero de Software Senior</a></li>
+      </ul>
+      <article class="det-cont">
+        <header class="head-cont">
+          <h1>Ingeniero de Software Senior</h1>
+          <small>Tech solutions inc. · Remoto</small>
+          <button class="apply-btn" >Aplicar ahora</button>
+        </header>
+        <section class="description-about">
+          <h2>Descripción del puesto</h2>
+          <p>
+            Tech Solutions Inc. está buscando un Ingeniero de Software Senior altamente motivado y experimentado para unirse a nuestro equipo remoto. El candidato ideal tendrá una sólida formación en desarrollo de software, con experiencia en el diseño, desarrollo e implementación de soluciones de software escalables y de alto rendimiento. Como Ingeniero de Software Senior, usted será responsable de liderar proyectos de desarrollo, mentorizar a ingenieros junior y colaborar con equipos multifuncionales para entregar productos de software de alta calidad.
+          </p>
+        </section>
+        <section class="resp-req">
+          <h2>Responsabilidades</h2>
+          <ul>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Diseñar, desarrollar y mantener aplicaciones web utilizando tecnologías modernas
+            </li>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Colaborar con equipos de producto y diseño para definir y entregar nuevas caracteristicas.
+            </li>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Escribir código limpio, eficiente y bien documentado.
+            </li>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Realizar revisiones de código y proporcionar retroalimentación constructiva a los miembros del equipo.
+            </li>
+          </ul>
+        </section>
+        <section class="resp-req">
+          <h2 >Requisitos</h2>
+          <ul>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Licenciatura en informática o campo relacionado.
+            </li>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Minimo de 5 años de experiencia en desarrollo de software.
+            </li>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Experiencia con frameworks de Javascript(por ejemplo, React, Ancular, Vue.js).
+            </li>
+            <li><svg class="check" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke=#09f stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 12l2 2l4 -4" /></svg>
+            Familiaridad con metodologías ágiles y herramientas de control de versiones (por ejemplo, Git).
+            </li>
+          </ul>
+        </section>
+        <section class="description-about">
+          <h2>Acerca de la empresa</h2>
+          <p>Tech Solutions Inc. es una empresa de tecnología innovadora que se centra en la creación de soluciones de software de vanguardia para diversas industrias. Estamos comprometidos con el fomento de un entorno de trabajo colaborativo e inclusivo donde cada empleado pueda prosperar y crecer profesionalmente. Ofrecemos salarios competitivos, beneficios integrales y oportunidades de desarrollo profesional continuo.</p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <button class="apply-btn-ft">Aplicar ahora</button>
+    </footer>
+  </body>
+</html>
